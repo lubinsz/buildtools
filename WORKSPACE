@@ -3,8 +3,8 @@ workspace(name = "com_github_bazelbuild_buildtools")
 git_repository(
     name = "io_bazel_rules_go",
     # 0.11.1
-    commit = "12fa5fd88725c9033fc7c37ec0f04b64a9519f49",
-    remote = "https://github.com/bazelbuild/rules_go.git",
+    commit = "2d462c74dd0079a9067a2852396edf0dcb217d9b",
+    remote = "https://github.com/lubinsz/rules_go.git",
 )
 
 http_archive(
